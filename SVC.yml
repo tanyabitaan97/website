@@ -4,9 +4,9 @@ metadata:
   name: my-custom-deployment
 spec:
   type: NodePort
-ports:
- - targetPort: 80
-   port: 80
-   nodePort: 30008
-selector:
-   app: custom
+  selector:
+    app: custom
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 30008
