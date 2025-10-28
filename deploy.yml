@@ -16,6 +16,6 @@ template:
 spec:
   containers:
   - name: custom
-    image: docker6767/image
+    image: tanyabitaan97/capstoneintellipaat
     ports:
     - containerPort: 80
